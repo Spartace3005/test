@@ -1,0 +1,88 @@
+.color-modal {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  background-color: #434960;
+  border: 2px solid silver;
+  box-shadow: 24px;
+  font-size: 20px;
+  min-height: 30vh;
+  .title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid silver;
+    color: #edc57e;
+  }
+  .content {
+    padding: 20px;
+    .icon {
+      color: whitesmoke;
+      display: none;
+    }
+    .line-1 {
+      display: flex;
+      justify-content: space-between;
+      height: 4rem; //64px
+      .color-1 {
+        width: 4rem;
+        background-color: #d0a9ca;
+        border-radius: 0.6rem;
+      }
+      .color-2 {
+        width: 4rem;
+        background-color: #64c385;
+        border-radius: 0.6rem;
+      }
+      .color-3 {
+        width: 4rem;
+        background-color: #e97248;
+        border-radius: 0.6rem;
+      }
+      .color-4 {
+        width: 4rem;
+        background-color: #81b2a9;
+        border-radius: 0.6rem;
+      }
+    }
+    .line-2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      height: 4rem;
+      .color-5 {
+        width: 4rem;
+        background-color: #fbab7e;
+        background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+        border-radius: 0.6rem;
+      }
+      .color-6 {
+        width: 4rem;
+        background: rgb(176, 191, 194);
+        background: linear-gradient(
+          293deg,
+          rgba(176, 191, 194, 1) 15%,
+          rgba(58, 71, 65, 1) 33%,
+          rgba(92, 116, 112, 1) 49%,
+          rgba(141, 160, 164, 1) 66%,
+          rgba(32, 39, 35, 1) 85%
+        );
+        border-radius: 0.6rem;
+      }
+      .color-7 {
+        width: 4rem;
+        background-color: #85ffbd;
+        background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+        border-radius: 0.6rem;
+      }
+      .color-8 {
+        width: 4rem;
+        background-color: #a9c9ff;
+        background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+        border-radius: 0.6rem;
+      }
+    }
+  }
+}
